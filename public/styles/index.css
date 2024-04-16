@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+  --eerie-black: #1c1d21ff;
+  --mountbatten-pink: #a288a6ff;
+  --rose-quartz: #bb9bb0ff;
+  --silver: #ccbcbcff;
+  --lavender-blush: #f1e3e4ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.nav-bar {
+  background-color: var(--silver);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 100vw;
+}
+
+.nav-link {
+  color: var(--lavender-blush);
+  text-decoration: none;
+  font-size: 20pt;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+a.active {
+  color: var(--mountbatten-pink);
+}
