@@ -1,52 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 :root {
-  --eerie-black: #1c1d21ff;
-  --mountbatten-pink: #a288a6ff;
-  --rose-quartz: #bb9bb0ff;
-  --silver: #ccbcbcff;
-  --lavender-blush: #f1e3e4ff;
+  --charcoal: #364652ff;
+  --night: #071108ff;
+  --thistle: #bfb1c1ff;
+  --french-gray: #b5bec6ff;
+  --columbia-blue: #c7dbe6ff;
+}
+
+body {
+  background: rgb(54, 70, 82);
+  background: linear-gradient(
+    90deg,
+    rgba(54, 70, 82, 1) 0%,
+    rgba(191, 177, 193, 1) 35%,
+    rgba(181, 190, 198, 1) 100%
+  );
 }
 
 * {
+  font-family: 'Source Sans 3', sans-serif;
   margin: 0;
   padding: 0;
-  font-family: 'Source Sans 3', sans-serif;
 }
 
-#home {
-  height: 100vh;
-}
-
-#about {
-  height: 100vh;
-}
-
-#experience {
-  height: 100vh;
-}
-
-#portfolio {
-  height: 100vh;
-}
-
-/* .nav-bar {
-  background-color: var(--silver);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 80px;
-  width: 100vw;
-}
-
-.nav-link {
-  color: var(--lavender-blush);
-  text-decoration: none;
-  font-size: 20pt;
-  text-transform: capitalize;
+.nav-item {
+  font-size: 16pt;
+  text-transform: uppercase;
   font-weight: bold;
 }
 
-a.active {
-  color: var(--mountbatten-pink);
-} */
+.page-container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.header {
+  font-size: 40pt;
+}
+.text {
+  font-size: 16pt;
+}
+
+/* Welcome Page */
+.home-container {
+  display: flex;
+  width: 60%;
+  border: 1px solid rgba(0, 0, 0, 0.527);
+  border-radius: 30px;
+  padding: 20px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile-pic-container {
+  width: 20%;
+}
+
+#welcome-content-container {
+  width: 80%;
+  margin-left: 20px;
+}
+
+.btn-bd-primary {
+  --bs-btn-bg: var(--charcoal);
+  --bs-btn-color: var(--french-gray);
+}
+
+/* About Page */
+
+#about {
+}
+
+/* Experience Page */
+
+#experience {
+}
+
+/* Portfolio Page */
+
+#portfolio {
+}
