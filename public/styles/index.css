@@ -14,7 +14,23 @@
   font-family: 'Source Sans 3', sans-serif;
 }
 
-.nav-bar {
+#home {
+  height: 100vh;
+}
+
+#about {
+  height: 100vh;
+}
+
+#experience {
+  height: 100vh;
+}
+
+#portfolio {
+  height: 100vh;
+}
+
+/* .nav-bar {
   background-color: var(--silver);
   display: flex;
   justify-content: space-around;
@@ -33,4 +49,4 @@
 
 a.active {
   color: var(--mountbatten-pink);
-}
+} */
