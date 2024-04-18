@@ -9,6 +9,10 @@
   --thistle-transparent: #bfb1c1ff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: rgb(54, 70, 82);
   background: linear-gradient(
@@ -29,6 +33,15 @@ body {
   font-size: 16pt;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.navbar-brand {
+  background-color: var(--thistle);
+  border-radius: 30px;
+  border: 3px solid var(--columbia-blue);
+  font-size: 17pt;
+  font-weight: 900;
+  padding: 10px;
 }
 
 .page-container {
@@ -81,6 +94,7 @@ body {
 .btn-bd-primary {
   --bs-btn-bg: var(--charcoal);
   --bs-btn-color: var(--french-gray);
+  margin-top: 10px;
 }
 
 /* About Page */
