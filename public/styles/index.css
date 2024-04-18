@@ -6,6 +6,7 @@
   --thistle: #bfb1c1ff;
   --french-gray: #b5bec6ff;
   --columbia-blue: #c7dbe6ff;
+  --thistle-transparent: #bfb1c1ff;
 }
 
 body {
@@ -39,7 +40,8 @@ body {
 }
 
 #profile-pic {
-  width: 80%;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -112,4 +114,16 @@ body {
 .card-img-top {
   width: 100px;
   /* margin: auto; */
+}
+
+.project-link {
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.522);
+  border-radius: 30px;
+  /* border: 3px solid var(--charcoal); */
 }
